@@ -13,3 +13,18 @@ body {
   color: whitesmoke !important;
   cursor: pointer !important;
 }
+.border{
+    border-bottom: 1px gray;
+}
+.botonimagen{
+    height:50px;
+    width:50px;
+    background-position:center;
+    border-radius: 45px;
+    border:none;
+}
+.botonborder{
+    border:none;
+    background-color: white;
+    border-radius: 45px;
+}

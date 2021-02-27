@@ -11,7 +11,7 @@
 </head>
 <body class="bg-light">
 
-    <nav class="nav fixed-top bg-custom">
+    <nav class="nav fixed-top bg-custom border">
         <a class="navbar-brand">
             <img src="img/logo.png">
         </a>
@@ -29,14 +29,31 @@
                 <li class="nav-item">
                   <a class="nav-link disabled" href="#">Disabled</a>
                 </li>
-              </ul>
+            </ul>
         </div>
-            
-        
-      </nav>
+            <div class="col-sm-6 col-md-3">
+              <button class="botonborder" type="button">
+                <i><img class="botonimagen" src="img/profile-pics/goku.jpg" alt="..."></i>
+              </button>
+            </div>
+        </div>    
+    </nav>
     
-    <div class="container my-5">
-
+    <div class="container-fluid">
+        <div class="row" id="clases">
+            <div class="my-4 col-lg-2 col-md-3 col-6">
+                <div class="card" >
+                    <img src="img/clases-pics/2.jpg" class="card-img-top " alt="... ">
+                    <div class="card-body">
+                        <h5 class="card-title ">${aplicacion.nombre}</h5>
+                        <p class="card-text ">${aplicacion.desarrollador} </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div> 
 
     <script src="js/jquery-3.4.1.min.js"></script>
