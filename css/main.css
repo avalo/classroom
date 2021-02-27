@@ -1,0 +1,15 @@
+body {
+    padding-top: 5rem;
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+.bg-custom{
+    background-color: white;
+}
+.card-shadow:hover {
+  background-color: #ffc107 !important;
+  color: whitesmoke !important;
+  cursor: pointer !important;
+}
