@@ -64,24 +64,14 @@
                         </div>
                     </div>
     
-                    <div class="col-4 pl-5">
-                        <div class="row">
-                            <ul class="nav justify-content-center">
-                                <li >
-                                    <div class="borded">
-                                        <a class="nav-link" href="#">Clase</a>
-                                    </div>
-                                  
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Asignaciones</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Participantes</a>
-                                </li>
-                              </ul>
+                    <div class="col-4 pl-5 my-auto">
+                        <div class="row my-auto">
+                            <nav class="nav my-auto justify-content-center">
+                                <a class="borded mr-5">Clase</a>
+                                <a class="borded mr-5">Asignaciones</a>
+                                <a class="borded">Participantes</a>
+                              </nav>
                         </div>
-                        
                     </div>
     
                     <div class="col-4 pl-auto">
@@ -109,8 +99,42 @@
             
         </nav> 
         
-    <div class="container-fluid" style="padding-top: 100px;">
+    <div class="container mx-auto" style="padding-top: 100px;">
+
+        <div class="row">
+            <div class="card sombra">
+                <img class="card-img-top" style="height: 200px;" src="img/clases-pics/1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Descripcion: Esta es la clase de Programacion II.</p>
+                  <p class="card-text">Aula: 10</p>
+                </div>
+            </div>
+        </div>
         
+        <div class="row">
+            
+            <div class="col">
+                <div class="card my-5" style="width: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <form class="form-inline">
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                      </div>
+                </form>
+            </div>
+        </div>
+        
+
     </div> 
 
     <script src="js/jquery-3.4.1.min.js"></script>
