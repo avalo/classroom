@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Classroom</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/all.css"><!--FontAwesome-->
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body class="bg-light">
+
+    <div id="welcomeDiv" style="display:none;" class="fadeMe"> 
+                <div class="border py-2">
+                    <div class="home py-3 pr-5 pl-3 my-auto">
+                        <a role="button" class="my-auto">
+                            <i class="fas fa-home fa-lg mr-4 ml-3 py-auto"></i>
+                            Todas las clases
+                        </a>
+                    </div>
+                </div>
+
+                <div class="clases">
+                    <p class="ml-3 mt-3">Clases</p>
+                    <div class="tbl_clases"> 
+                        <div class="row mb-3">
+                            <div class="col-4">
+                                <img src="img/clases-pics/2.jpg" alt="..." class="img-s ml-4 rounded-circle">
+                            </div>
+                            <div class="col">
+                                <p style="margin: 2px 2px 2px 2px">POO</p>
+                                <p style="margin: 2px 2px 2px 2px;">1600</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="img/clases-pics/4.jpg" alt="..." class="img-s ml-4 rounded-circle">
+                            </div>
+                            <div class="col">
+                                <p style="margin: 2px 2px 2px 2px">Programacion II</p>
+                                <p style="margin: 2px 2px 2px 2px;">1600</p>
+                            </div>
+                        </div>     
+                    </div>
+                </div>
+    </div>
+
+        <nav class="navbar fixed-top bg-custom border">
+
+                <div class="row container-fluid">
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="ml-4 mr-3 my-auto">
+                                <a onclick="showDiv()"> 
+                                    <i class="fa fa-bars fa-lg"></i>
+                                </a>
+                            </div>
+                                <div class="my-auto">
+                                    <h6 style="margin-bottom: 1px; margin-top: 7px;">Programacion II</h6>
+                                    <p style="font-size: small;">1300</p>
+                                </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-4 pl-5">
+                        <div class="row">
+                            <ul class="nav justify-content-center">
+                                <li >
+                                    <div class="borded">
+                                        <a class="nav-link" href="#">Clase</a>
+                                    </div>
+                                  
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Asignaciones</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Participantes</a>
+                                </li>
+                              </ul>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="col-4 pl-auto">
+                        <div class="row ml-auto">
+                            <div class="row ml-auto mr-4 my-auto">
+                                <div class="mr-2 my-auto">
+                                    <button type="button" class="botonp"> 
+                                        <i class="fas fa-cog"></i>
+                                    </button>
+                                </div>
+                                <div class="ml-2 mr-4 my-auto">
+                                    <i class="fas fa-th "></i>
+                                </div>
+                                <div>
+                                    
+                                <button class="ml-auto botonborder mr-4" onclick="mostrar()" type="button">
+                                    <img class="ml-auto botonimagen mr-4" src="img/profile-pics/goku.jpg" alt="...">
+                                </button> 
+                                </div>
+                            </div>
+                        </div>
+                         
+                    </div>
+                </div>
+            
+        </nav> 
+        
+    <div class="container-fluid" style="padding-top: 100px;">
+        
+    </div> 
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/controlador.js"></script>
+</body>
+</html>

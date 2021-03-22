@@ -1,4 +1,12 @@
 // Aqui se va a generar el arreglo de JSON
+function showDiv() {
+    document.getElementById('welcomeDiv').style.display = "block";
+ }
+
+ function showDivplus() {
+    document.getElementById('optionDiv').style.display = "block";
+ }
+
 var classroom = [{
     instructor: {
         nombre: "Goku",
